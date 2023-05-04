@@ -1,3 +1,32 @@
+.btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 17px;
+  margin: 3px;
+}
+.btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #1375ED;
+  font-weight: 600;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.btn-primary a {
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +35,7 @@
 
 body {
   background-color: #f4f4f4;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   line-height: 1.6;
   color: #464646;
@@ -40,16 +69,64 @@ a {
 .navbar a:hover {
   color: #F37238;
 }
-.navbar div {
-  background-color: #1375ED;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 10px 17px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 2px;
-  border-top-right-radius: 2px;
-}
-.navbar div a {
+.navbar .btn-primary a {
   color: #FFFFFF;
+}
+
+.heads {
+  background-color: #EEEEEE;
+  display: flex;
+}
+.heads .border-box-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370.97px;
+  height: 470.59px;
+  left: 1222.59px;
+  top: 227.03px;
+  border: 18px solid #F37238;
+  box-shadow: 0px 0px 47px rgba(243, 114, 56, 0.6);
+  transform: rotate(90deg);
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+}
+.heads .border-box-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370.1px;
+  height: 461.43px;
+  left: 832.57px;
+  top: 531.1px;
+  border: 18px solid #1375ED;
+  box-shadow: 0px 0px 66px rgba(19, 117, 237, 0.5);
+  transform: rotate(-90deg);
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  line-height: 22px;
+}
+.heads h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #333333;
+  height: 164px;
+}
+.heads h2 {
+  height: 84px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 96px;
+  text-transform: capitalize;
+  color: #1375ED;
+}
+.heads h4 {
+  height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #464646;
+}
+.heads .grid {
+  display: grid;
 }
