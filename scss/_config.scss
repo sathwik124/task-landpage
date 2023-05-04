@@ -1,0 +1,11 @@
+$light-color: #f4f4f4;
+$font: Lato;
+$primary-color: #EEEEEE;
+$secondary-color: #1375ED;
+$teritary-color:  #F37238;
+$color-splash: #464646;
+
+@mixin set-background($color) {
+    background-color: $color;
+
+}
