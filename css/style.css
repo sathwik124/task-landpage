@@ -76,14 +76,15 @@ a {
 .heads {
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 .heads .border-box-1 {
   box-sizing: border-box;
   position: absolute;
   width: 370.97px;
   height: 470.59px;
-  left: 1222.59px;
-  top: 227.03px;
+  top: 65px;
+  left: 55px;
   border: 18px solid #F37238;
   box-shadow: 0px 0px 47px rgba(243, 114, 56, 0.6);
   transform: rotate(90deg);
@@ -95,14 +96,17 @@ a {
   position: absolute;
   width: 370.1px;
   height: 461.43px;
-  left: 832.57px;
-  top: 531.1px;
+  left: 130px;
   border: 18px solid #1375ED;
   box-shadow: 0px 0px 66px rgba(19, 117, 237, 0.5);
   transform: rotate(-90deg);
   border-top-right-radius: 55px;
   border-bottom-left-radius: 55px;
   line-height: 22px;
+}
+.heads img {
+  position: relative;
+  top: 40px;
 }
 .heads h1 {
   font-weight: 800;
@@ -127,6 +131,21 @@ a {
   line-height: 22px;
   color: #464646;
 }
-.heads .grid {
-  display: grid;
+.heads .pic {
+  position: relative;
+}
+
+.sec-1 {
+  padding-top: 150px;
+  text-align: center;
+}
+.sec-1 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 51px;
+  letter-spacing: 0.015em;
+  color: #1375ED;
+}
+.sec-1 span h2 {
+  color: #F37238;
 }
