@@ -281,3 +281,7 @@ a {
   border-radius: 12px;
   transform: rotate(-90deg);
 }
+
+#sec-3-1 {
+  background: rgba(243, 114, 56, 0.12);
+}
