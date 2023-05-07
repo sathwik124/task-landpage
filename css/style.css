@@ -324,3 +324,101 @@ a {
   color: rgba(51, 51, 51, 0.6);
   width: max-content;
 }
+
+.sec-5 {
+  background: rgba(19, 117, 237, 0.1);
+}
+.sec-5 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1375ED;
+}
+.sec-5 p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+.sec-5 .text {
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 60px;
+}
+.sec-5 .btn-primary {
+  background: #F37238;
+  width: 170px;
+  height: 50px;
+  padding: 13px 33px;
+}
+.sec-5 .cont {
+  margin: 0 auto;
+  width: max-content;
+  padding: 30px;
+}
+
+.footer {
+  background: #1375ED;
+}
+.footer .labels {
+  margin: 0 100px;
+}
+.footer #logo {
+  padding-top: 60px;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 99px;
+}
+.footer a {
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: #F37238;
+}
+.footer .fnav {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer li {
+  padding: 0 20px;
+  padding-bottom: 40px;
+}
+.footer hr {
+  border: 0.4px solid #D0E5FF;
+}
+.footer .legal {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer .socmedia {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
+.footer .lasbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.footer .lasbar p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #FFFFFF;
+}
