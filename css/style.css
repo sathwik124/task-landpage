@@ -284,4 +284,43 @@ a {
 
 #sec-3-1 {
   background: rgba(243, 114, 56, 0.12);
+  padding-bottom: 55px;
+}
+
+.sec-4 h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1375ED;
+  padding-bottom: 40px;
+}
+.sec-4 .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px auto;
+  width: max-content;
+  box-sizing: border-box;
+  width: 912px;
+  height: 58px;
+  background: rgba(19, 117, 237, 0.11);
+  border-radius: 3px;
+  padding: 16px 43px;
+}
+.sec-4 #arrow {
+  left: 83%;
+  right: -12.57%;
+  top: 37.12%;
+  bottom: -3.12%;
+  border: 1.5px solid rgba(51, 51, 51, 0.6);
+  transform: rotate(90deg);
+}
+.sec-4 p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(51, 51, 51, 0.6);
+  width: max-content;
 }
