@@ -21,12 +21,6 @@
   color: #FFFFFF;
 }
 
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,7 +29,7 @@
 
 body {
   background-color: #EEEEEE;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-style: normal;
   line-height: 1.6;
   color: #464646;
